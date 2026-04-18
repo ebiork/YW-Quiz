@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect, useRef } from “react”;
 import {
 ChevronRight,
@@ -769,7 +770,7 @@ From the <span style={{ fontStyle: “italic” }}>{destinationName}</span> flee
 };
 
 // ––––– MAIN APP –––––
-export default function App() {
+export default function Page() {
 const [step, setStep] = useState(“welcome”);
 const [qIndex, setQIndex] = useState(0);
 const [answers, setAnswers] = useState({});
